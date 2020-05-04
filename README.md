@@ -37,6 +37,20 @@ Master -> Versão principal
 
 - git branch = Mostra qual branch estamos trabalhando
 
+## Removendo arquivos :
+
+- git rm "nome do arquivo" -f =  Remove arquivos da árvore de trabalho e do índice , utilizar o -f quando o arquivo não estiver comitado 
+- git rm "nome do arquivo" -fr = Remove arquivos da árvore de trabalho e do índice, utilizar o -fr para apagar arquivos dentro de pastas
+
+## Movendo arquivos e Renomeando:
+
+- git 'rm 'nome do arquivo' 'local onde é para ser movido' = Mover um arquivo, um diretório ou um link simbólico
+- git rm 'nome do arquivo' 'novo do novo nome do arquivo' = Renomear arquivo
+
+## Rollback de alterações não rastreados
+
+- git checkout -- 'nome do arquivo' = Alterna ramificações ou restaura arquivos da árvore de trabalho
+
 ## Revertendo modificações :
 
 - git reset = Reseta o repositório para o estado do último commit , ou outro commit. Ou seja , como ele podemos desfazer commits
