@@ -76,9 +76,8 @@ Pode se manter versões diferentes do sistema em diferentes branches
 ## Diferença entre arquivos :
 
 - git diff = Alterações de todos arquivos
-- git diff --name -only = Nomes dos arquuivos que foram modificados
 - git diff "nome do arquivo" = Mostra o que foi alterado apenas naquele arquivo
-- git checkout head --nome do arquivo = Desfaz a alteração , e volta para uma versão anterior
+- git checkout head -- 'nome do arquivo' = Desfaz a alteração , e volta para uma versão anterior
 
 ## Fazendo alterações no repositório remoto : 
 
