@@ -67,10 +67,27 @@ Master -> Versão principal
 
 ## Trabalhando com diferentes branches :
 
-- git branch "nome" = Cria uma nova branch
+- git branch nome da branch = Cria uma nova branch
 - git checkout nome da branch  = Altera para a branch que queremos trabalhar
+- git branch -d nome da branch = Apaga a branch quando está sem commit
+- git branch -D nome da branch = Apaga a branch mesmo estando com commit
+- git branch -r = Mostra branchs existentes no repositório do github
+- git branch --no-merged = Mostra conteúdo não mesclado
+- git branch --merged = Mostra conteúdo já mesclado e mostra a branch em uso no momento
+- git-merge nome da branch -m "" = Une dois ou mais históricos de desenvolvimento	
 
 Pode se manter versões diferentes do sistema em diferentes branches
+
+## Tags :
+
+- Adiciona um marcador versões nos commits
+
+- git tag nome da tag = Cria uma tag
+- git tag nome da tag hash do commit = Adiciona uma tag nesse commit
+- git tag -d nome da tag = Exclui uma tag
+- git show nome da tag = Mostra o que foi alterado nessa tag
+- git push origin nome da tag = Envia para o repositório no github
+- git push origin --tags = Envia todas as tags de uma vez para o repositório no github
 
 
 ## Diferença entre arquivos :
